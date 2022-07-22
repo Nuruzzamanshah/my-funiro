@@ -1,11 +1,12 @@
 import React from 'react';
+import './Navbar.css';
 
 const Footer = () => {
     return (
         <div>
             <footer className="footer p-10 text-base-content">
             <div>
-                <span className="footer-title">Funiro.</span> 
+                <span className="footer-title httt">Funiro.</span> 
                 <a className="link link-hover">Worldwide furniture store since<br></br> 2020. We sell over 1000+ branded<br></br> products on our website</a> 
                 <a className="link link-hover">Sawojajar Malang, Indonesia</a> 
                 <a className="link link-hover">+6289 456 3455</a> 
@@ -37,7 +38,7 @@ const Footer = () => {
                 <div className="form-control w-80">
                 <div className="relative">
                     <input type="text" placeholder="Enter your email" className="input input-bordered w-full pr-16" /> 
-                    <button className="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
+                    <button className="btn absolute top-0 right-0 rounded-l-none">Subscribe</button>
                 </div>
                 </div>
             </div>

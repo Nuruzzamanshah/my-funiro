@@ -6,6 +6,7 @@ import Footer from './Pages/Home/Footer';
 import GridSection from './Pages/Home/GridSection';
 import Info from './Pages/Home/Info';
 import Navbar from './Pages/Home/Navbar';
+import Slider from './Pages/Home/Slider';
 import SubTitle from './Pages/Home/SubTitle';
 import SubTitles from './Pages/Home/SubTitles';
 import Title from './Pages/Home/Title';
@@ -14,6 +15,7 @@ function App() {
   return (
     <div>
       <Navbar></Navbar>
+      <Slider></Slider>
       <Info></Info>
       <Title></Title>
       <Categories></Categories>
