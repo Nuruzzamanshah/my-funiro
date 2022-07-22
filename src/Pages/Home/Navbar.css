@@ -88,3 +88,23 @@ nav{
 .intro2{
     margin-left: 20px;
 }
+
+
+.subTitle{
+    border: 1px solid red;
+    padding: 10px;
+    width: 200px;
+    margin-left: 45%;
+    color: red;
+}
+
+.b-card{
+    padding: 0 50px;
+}
+.b-cards{
+    background-color: #fcf8f3;
+}
+.Btn-clor{
+    background-color: #e89f71;
+    outline: none;
+}

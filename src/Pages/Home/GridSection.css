@@ -1,0 +1,53 @@
+main{
+    display: grid;
+    grid-template-rows: 500px 500px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding-top: 40px;
+}
+.div1 img{
+    grid-column: 1/-5;
+    width: 274px;
+    height: 382px;
+}
+
+.div2 img{
+    margin-top: 70px;
+    width: 451px;
+    height: 312px;
+}
+.div3 img{
+    width: 295px;
+    height: 392px;
+    margin-top: 50%;
+}
+.div4 img{
+    width: 290px;
+    height: 348px;
+    margin-top: 85px;
+
+}
+.div5 img{
+    width: 425px;
+    height: 433px;
+}
+.div6 img{
+    width: 381px;
+    height: 363px;
+    margin-top: -115px;
+}
+.div7 img{
+    width: 344px;
+    height: 242px;
+    margin-top: -115px;
+}
+.div9 img{
+    width: 378px;
+    height: 302px;
+    margin-top: -67px;
+}
+.div10 img{
+    width: 425px;
+    height: 196px;
+    margin-top: -67px;
+}
